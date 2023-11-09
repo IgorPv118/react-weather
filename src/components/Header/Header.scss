@@ -1,0 +1,23 @@
+@mixin wrapper {
+  height: 65px;
+  border: 1px solid red;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  @include wrapper;
+}
+.header-logo {
+  border-radius: 50%;
+}
+.header-title {
+  color: #4793ff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
